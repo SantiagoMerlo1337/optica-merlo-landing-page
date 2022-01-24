@@ -1,0 +1,198 @@
+html{
+    font-family: 'Ubuntu', 'sans-serif';
+}
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+main{
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.nav-menu-responsive{
+    display: none;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu, .nav-menu-responsive{
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.8rem 0;
+    outline: lightgrey 1px solid;
+}
+.nav-menu img, .nav-menu-responsive img{
+    width: 250px;
+}
+.nav-menu__ul-noresponsive{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-menu__ul-noresponsive li{
+    margin: 0 20px;
+}
+.nav-menu__ul-noresponsive li a{
+    transition: all 0.15s;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 22px 25px;
+    font-weight: 500;
+    color: rgb(56, 70, 143);
+}
+.nav-menu__ul-noresponsive li a:hover{
+    color: rgb(22, 35, 100);
+    background-color: rgba(22, 35, 100, 0.178);
+    border-radius: 20px;
+}
+.nav-menu button, .nav-menu-responsive button{
+    transition: all 0.25s;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(22, 35, 100);
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-menu button:hover, .nav-menu-responsive button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(22, 35, 100);
+    outline: rgb(22, 35, 100) 1px solid;
+}
+
+.presentacion{
+    background-color: rgb(22, 35, 100);
+    color: white;
+    padding: 1.5rem 4rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.presentacion__texto{
+    width: 600px;
+}
+.presentacion__texto h3{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.presentacion__texto p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.presentacion__imagen{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    object-fit:contain;
+}
+.container-busqueda{
+    background-color: tomato;
+    padding: 1rem;
+    
+}
+.container-busqueda p{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.container-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+    text-align: center; 
+    width: 95%;
+    margin: 0 auto;
+}
+.container-cards article{
+    transition: all 0.3s;
+    background-color: white;
+    margin: 1.5rem 2rem;
+    border-radius: 12px;
+    padding: 1rem 0;
+}
+.container-cards article:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.800);
+}
+
+.container-cards img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.container-cards div h2{
+    font-size: 28px;
+    padding: 1rem;
+    color: rgb(26, 26, 26);
+}
+.container-cards div h3{
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    font-style: italic;
+}
+.container-cards div p{
+    color: rgb(46, 46, 46);
+    font-weight: 300;
+}
+
+.container-cards__receta img{
+    transform: scaleX(-1);
+    /* object-position: top; */
+}
+
+
+
+/* MEDIA QUERIS */
+@media (max-width: 1100px){
+    .presentacion{
+        grid-template-columns: 1fr; 
+    }
+    .presentacion__imagen{
+        display: none;
+    }
+    .presentacion__texto{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .presentacion__texto h3{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 980px){
+    .nav-menu{
+        display: none;
+    }
+    .nav-menu-responsive{
+        display: flex;
+        justify-content: space-around;
+    }
+    .presentacion{
+        padding: 1.5rem 2%;
+    }
+    .presentacion__texto{
+        width: 95%;
+    }
+    .presentacion__texto h3{
+        font-size: 2.5rem;
+
+    }
+    .presentacion__texto p{
+        font-size: 1.2rem;
+    }
+    .container-cards{
+        grid-template-columns: repeat(auto-fill,minmax(95%,1fr));
+    }
+}
