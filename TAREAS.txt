@@ -1,0 +1,18 @@
+//// OBLIGATORIO ////
+
+-Maquetado general
+-Marcas agregar: PROTOTYPE, BICICLETA, KARUN, ETC
+-CHECKEO DEL TODO EL RESPONSIVE
+-OPTIMIZACIÓN IMAGENES (reducir tamaño, comprimir, agregar alt y lazyloading), BORRAR CODIGO INNECESARIO, PURGE DEL BOOTSTRAP5
+
+
+//// MEJORAS ////
+
+-IFRAME Googlemaps aparecen otras opticas.
+-Redes sociales en CONTACTANOS
+
+//// FIXES ////
+
+-Arreglar responsive del header
+-WPP nro telefono en CONTACTANOS
+-cards etiqueta 'a'
