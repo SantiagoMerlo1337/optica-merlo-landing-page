@@ -82,7 +82,12 @@ main{
 }
 .imagenFinal img{
     padding: 2rem 0;
+    padding-bottom: 0;
     width: 6rem;
+}
+.lentesOpcion a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.9);
 }
 footer{
     background-color: rgb(42, 42, 42);
@@ -104,8 +109,8 @@ footer{
     column-gap: 15px;
     row-gap: 38px;
     
-    padding: 5rem 3rem;
-    padding-top: 2rem;
+    padding: 2rem 3rem;
+    padding-bottom: 0;
     color: white;
 }
 .container-marcas article{
