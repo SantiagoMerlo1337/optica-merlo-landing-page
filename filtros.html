@@ -13,12 +13,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg px-md-5">
       <div class="container-fluid">
-        <img class="navbar-brand brandImagen" href="index.html" src="./img/logo-desc-unalinea.png">
+        <a href="index.html"><img class="navbar-brand brandImagen" src="./img/logo-desc-unalinea.png"></a>
         <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,14 +70,14 @@
       </div>
   </div>
   
-  <p class="p fs-3 py-2 bg-secondary text-white text-center">¡Visitanos en nuestro local con tu receta para adquirirlos!</p>
+  <p class="p fs-3 py-2 bg-secondary text-white text-center m-0">¡Visitanos en nuestro local con tu receta para adquirirlos!</p>
 
   <section class="container">
-    <h3 class="h3 text-white text-center fs-2 py-4 m-0">FILTROS</h3>
+    <h3 class="h3 text-white text-center fs-2 py-5 m-0">- FILTROS -</h3>
     <div class="row gap-4 gap-lg-0">
       <div class="col-12 col-lg-4 gap-5">
-        <article class="card shadow">
-          <img class="card-img-top" src="./img/filtro.jpg" alt="Antirreflejo">
+        <article class="card shadow cardFiltro">
+          <img class="card-img-top imagenCardFiltros" src="./img/antirreflejo.jpg" alt="Antirreflejo">
           <div class="card-body text-center">
               <h2 class="fs-3">Antirreflejo</h2>
               <h3 class="fs-5">Elimina los reflejos de luz producidos artificial o naturalmente que dificultan ver de forma correcta.</h3>
@@ -66,55 +85,75 @@
       </article>
       </div>
       <div class="col-12 col-lg-4 gap-5">
-        <article class="card shadow">
-          <img class="card-img-top" src="./img/filtro.jpg" alt="Luz Azul">
+        <article class="card shadow cardFiltro">
+          <img class="card-img-top imagenCardFiltros" src="./img/luz-azul.jpg" alt="Luz Azul">
           <div class="card-body text-center">
               <h2 class="fs-3">Luz Azul</h2>
-              <h3 class="fs-5">Protege la vista de la luz azul que emite las pantallas.</h3>
+              <h3 class="fs-5">Protege la vista de la luz azul que emite las pantallas. </h3>
           </div>
       </article>
       </div>
       <div class="col-12 col-lg-4 gap-5">
-        <article class="card shadow">
-          <img class="card-img-top" src="./img/filtro.jpg" alt="Fotocromático">
+        <article class="card shadow cardFiltro">
+          <img class="card-img-top imagenCardFiltros" src="./img/fotocromatico.jpg" alt="Fotocromatico">
           <div class="card-body text-center">
               <h2 class="fs-3">Fotocromático</h2>
               <h3 class="fs-5">Lentes transparentes en interiores, pero se oscurecen al estar en ambientes luminosos.</h3>
           </div>
       </article>
       </div>
+      <div class="col-12 col-lg-6 gap-5 m-0 mt-lg-4">
+        <article class="card shadow cardFiltro">
+          <img class="card-img-top imagenCardFiltros" src="./img/antirraya.jpg" alt="Fotocromatico">
+          <div class="card-body text-center">
+              <h2 class="fs-3">Laca Antirraya</h2>
+              <h3 class="fs-5">¡Protege las lentes de las rayas involuntarias!</h3>
+          </div>
+      </article>
+      </div>
+      <div class="col-12 col-lg-6 gap-5 m-0 mt-lg-4">
+        <article class="card shadow cardFiltro">
+          <img class="card-img-top imagenCardFiltros" src="./img/adaptec-vuble.jpg" alt="Adaptec Vuble">
+          <div class="card-body text-center">
+              <h2 class="fs-3">Adaptec Vuble</h2>
+              <h3 class="fs-5">Combinación de los siguientes filtros: antirreflejos, luz azul y fotocromático.</h3>
+          </div>
+      </article>
+      </div>
     </div>
 
-    <h3 class="h3 text-white text-center fs-2 py-4">DISTANCIAS FOCALES</h3>
-    <di class="row gap-4 gap-lg-0">
+    <p class="p fst-italic text-center text-white py-3 m-0 fs-5">*Los filtros son combinables*</p>
+
+    <h3 class="h3 text-white text-center fs-2 py-5">- DISTANCIAS FOCALES -</h3>
+    <div class="row gap-4 gap-lg-0">
       <div class="col-12 col-lg-4 gap-5">
-        <article class="card shadow">
-          <img class="card-img-top" src="./img/filtro.jpg" alt="Monofocales">
+        <article class="card shadow cardFiltro">
+          <img class="card-img-top imagenCardFiltros" src="./img/monofocal.jpg" alt="Monofocales">
           <div class="card-body text-center">
               <h2 class="fs-3">Monofocales</h2>
-              <h3 class="fs-5"></h3>
+              <h3 class="fs-5">Misma graduación en toda su superficie.</h3>
           </div>
       </article>
       </div>
       <div class="col-12 col-lg-4 gap-5">
-        <article class="card shadow">
-          <img class="card-img-top" src="./img/filtro.jpg" alt="Bifocales">
+        <article class="card shadow cardFiltro">
+          <img class="card-img-top imagenCardFiltros" src="./img/bifocal.jpg" alt="Bifocales">
           <div class="card-body text-center">
               <h2 class="fs-3">Bifocales</h2>
-              <h3 class="fs-5"></h3>
+              <h3 class="fs-5">Dos graduaciones en las mismas gafas: la de lejos y la de cerca.</h3>
           </div>
       </article>
       </div>
       <div class="col-12 col-lg-4 gap-5">
-        <article class="card shadow">
-          <img class="card-img-top" src="./img/filtro.jpg" alt="Multifocales">
+        <article class="card shadow cardFiltro">
+          <img class="card-img-top imagenCardFiltros" src="./img/multifocal.jpg" alt="Multifocales">
           <div class="card-body text-center">
               <h2 class="fs-3">Multifocales</h2>
-              <h3 class="fs-5"></h3>
+              <h3 class="fs-5">Progresividad en dos graduaciones, permitiendo el enfoque de distancias lejanas, medias y cercanas.</h3>
           </div>
       </article>
       </div>
-    </di  v>
+    </div>
 </section>
 
 
@@ -129,8 +168,17 @@
         <div class="col-6">
           <img class="logoFooter" src="./img/logo-desc-doslineas.png" alt="Logo Optica Merlo">
         </div>
-        <div class="col-6 text-center">
+        <div class="col-6 text-center redesFooter">
           <p class="text-white">Copyright ©2022 - Optica Merlo</p>
+          <a href="https://www.facebook.com/MerloOptica">
+            <img src="./img/facebookLogo.svg" alt="Optica Merlo">
+          </a>
+          <a href="https://www.instagram.com/merloptica/">
+            <img src="./img/instagramLogo.svg" alt="Optica Merlo">
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5493492281954" target="_blank">
+            <img src="./img/whatsappLogo.svg" alt="Optica Merlo">
+          </a>
         </div>
       </div>
     </div>

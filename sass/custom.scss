@@ -97,7 +97,27 @@ footer{
     filter: brightness(100);
 }
 .wave{
-    filter: brightness(80%);
+    object-fit:cover;
+    object-position: top;
+    width: 100%;
+    height: 150px;
+    opacity: 60%;
+}
+.imagenCardFiltros{
+    height: 15rem;
+    object-fit: cover;
+}
+.cardFiltro{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    // outline:white solid 1px;
+}
+.redesFooter a img{
+    width: 25px;
+    filter: invert(1);
+}
+.redesFooter a{
+    margin: 0 10px;
 }
 
 //MARCAS
@@ -126,7 +146,6 @@ footer{
 //REDES
 .redes img{
     width: 2rem;
-    filter: invert(1);
 }
 .redes p{
     font-size: 1.2rem;
@@ -135,6 +154,7 @@ footer{
     margin: 0;
     color: white;
     display: block;
+    transition: ease-in-out 0.2s;
 }
 .redes a{
     text-decoration: none;
@@ -143,6 +163,10 @@ footer{
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.4);
     width: 130px;
+    transition: ease-in-out 0.2s;
+}
+.redes:hover{
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 //MEDIAS QUERIES

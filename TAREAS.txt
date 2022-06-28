@@ -1,18 +1,13 @@
 //// OBLIGATORIO ////
 
--Maquetado general
--Marcas agregar: PROTOTYPE, BICICLETA, KARUN, ETC
 -CHECKEO DEL TODO EL RESPONSIVE
--OPTIMIZACIÓN IMAGENES (reducir tamaño, comprimir, agregar alt y lazyloading), BORRAR CODIGO INNECESARIO, PURGE DEL BOOTSTRAP5)
--favicon
--Agregar filtros(fotocromaticos, luz azul, antirreflejo, multifocales, bifocales)
 
 //// MEJORAS ////
 
--IFRAME Googlemaps aparecen otras opticas.
+lazyloading
 
 //// FIXES ////
 
--Arreglar responsive del header (galaxy fold )
+-Arreglar responsive del header (galaxy fold) y el boton de contacto
 -WPP nro telefono en CONTACTANOS
--cards etiqueta 'a'
+-redes en responsive
