@@ -1,13 +1,11 @@
 //// OBLIGATORIO ////
 
--CHECKEO DEL TODO EL RESPONSIVE
+-telefono
+-sitemap
 
 //// MEJORAS ////
 
-lazyloading
+-sacar html
 
 //// FIXES ////
 
--Arreglar responsive del header (galaxy fold) y el boton de contacto
--WPP nro telefono en CONTACTANOS
--redes en responsive

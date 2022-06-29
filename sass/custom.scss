@@ -120,6 +120,15 @@ footer{
     margin: 0 10px;
 }
 
+.contactoHeader{
+    height: 42px;
+    
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    filter: invert(1);
+}
+
 //MARCAS
 
 .container-marcas{
@@ -190,5 +199,24 @@ footer{
     .container-marcas {
         padding: 1rem;
         padding-top: 2rem;
+    }
+}
+
+@media (max-width: 991px){
+    .contactoHeader{
+        margin-top: 35px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 336px){
+    .brandImagen{
+        width: 12rem;
+    }
+    .logoFooter{
+        width: 8rem;
+    }
+    .redesFooter a img{
+        width: 24px;
     }
 }
