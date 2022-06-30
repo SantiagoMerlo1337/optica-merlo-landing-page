@@ -2,10 +2,9 @@
 
 -telefono
 -sitemap
+-htaccess
 
 //// MEJORAS ////
-
--sacar html
 
 //// FIXES ////
 
