@@ -1,8 +1,7 @@
 //// OBLIGATORIO ////
 
 -telefono
--sitemap
--htaccess
+
 
 //// MEJORAS ////
 
