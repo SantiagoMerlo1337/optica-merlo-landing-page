@@ -1,50 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Optica Merlo</title>
-    
-    <!-- Links -->
-    <link rel="stylesheet" href="./css/styles.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./img/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <?php
+        require_once('recursos/head.php');
+    ?>
 </head>
+
 <body>
     <header>
-    <?php
-        require_once('Header.php');
+        <?php
+        require_once('recursos/header.php');
     ?>
     </header>
+    <main>
+        <div class="container-fluid containerPrincipal py-4 px-xs-2 px-sm-5">
+            <div class="row">
+                <div class="col-12 col-lg-8 pe-lg-5 text-center text-lg-start textoPrincipal">
+                    <h2 class="h2 fs-1 fw-bold text-white">La Óptica que siempre buscaste en Rafaela</h2>
+                    <h3 class="h3 fw-light text-white">Especialistas en lentes multifocales, lentes de contacto,
+                        anteojos recetados y protectores para sol.</h3>
+                </div>
+                <div class="col-0 col-lg-4 lentesDivPrincipal text-center">
+                    <img class="lentesContainerPrincipal" src="./img/lentes.png" alt="lentes">
+                </div>
+            </div>
+        </div>
+
+        <p class="p fs-3 py-2 bg-secondary text-white text-center">¿Qué estas buscando?</p>
+
+        <div class="container">
+            <section class="row lentesOpcion text-center gap-4 gap-lg-0">
+                <div class="col-12 col-xs-6 col-lg-6">
+                    <a href="filtros">
+                        <article class="card cardModificacion" style="width: 100%;">
+                            <img src="./img/modelo2.jpg" class="card-img-top w-100 imagenCard" alt="Modelo Lentes"
+                                loading="lazy">
+                            <div class="card-body">
+                                <h5 class="card-title fs-2 fw-bold">LENTES DE RECETA</h5>
+                                <p class="card-text fs-5">Contamos con filtros de luz azul, antirreflejos, ambos filtros
+                                    combinados, y mucho más.</p>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+
+                <div class="col-12 col-xs-6 col-lg-6">
+                    <a href="marcas">
+                        <article class="card cardModificacion" style="width: 100%;">
+                            <img src="./img/modelo1.jpg" class="card-img-top w-100 imagenCard" alt="Modelo Lentes"
+                                loading="lazy">
+                            <div class="card-body">
+                                <h5 class="card-title fs-2 fw-bold">LENTES DE SOL</h5>
+                                <p class="card-text fs-5">Contamos con lentes de calidad premium de distintas marcas,
+                                    armazones de nylon, metálicos, y mucho más..</p>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </section>
+
+            <div class="text-center imagenFinal">
+                <img src="./img/logo-png.png" alt="">
+            </div>
+        </div>
+
+        <img src="./img/wave.svg" alt="" class="wave">
+    </main>
     <footer>
-    <?php
-        require_once('Footer.php');
-    ?>  
+        <?php
+        require_once('recursos/footer.php');
+    ?>
     </footer>
     <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
