@@ -62,8 +62,16 @@
                 <p>E7</p>
             </article>
             <article>
+                <img src="img/marcas-logos/uptown.png" alt="Logo Uptown" loading="lazy">
+                <p>Uptown</p>
+            </article>
+            <article>
                 <img src="img/marcas-logos/ossira.png" alt="Logo Ossira" loading="lazy">
                 <p>Ossira</p>
+            </article>
+            <article>
+                <img src="img/marcas-logos/alberta ferretti.png" alt="Logo Alberta Ferretti" loading="lazy">
+                <p>Alberta Ferretti</p>
             </article>
             <article>
                 <img src="img/marcas-logos/las oreiro.png" alt="Logo Las Oreiro" loading="lazy">
@@ -86,29 +94,38 @@
                 <p>Wanama</p>
             </article>
             <article>
-                <img src="img/marcas-logos/mormaii.png" alt="Logo Mormaii" loading="lazy">
-                <p>Mormaii</p>
-            </article>
-            <article>
-                <img src="img/marcas-logos/maniac.png" alt="Logo Maniac" loading="lazy">
-                <p>Maniac</p>
-            </article>
-            <article>
-                <img src="img/marcas-logos/alberta ferretti.png" alt="Logo Alberta Ferretti" loading="lazy">
-                <p>Alberta Ferretti</p>
-            </article>
-            <article>
                 <img src="img/marcas-logos/ona saez.png" alt="Logo Ona Saez" loading="lazy">
                 <p>Ona Saez</p>
             </article>
             <article>
-                <img src="img/marcas-logos/ozono.png" alt="Logo Ozono" loading="lazy">
-                <p>Ozono</p>
+                <img src="img/marcas-logos/prototype.png" alt="Logo Prototype" loading="lazy">
+                <p>Prototype</p>
             </article>
-            <!-- <article>
-        <img src="img/marcas-logos/" alt="">
-        <p>Matt Lopez</p>
-    </article>
+            <article>
+                <img src="img/marcas-logos/rodenstock.png" alt="Logo Rodenstock" loading="lazy">
+                <p>Rodenstock</p>
+            </article>
+            <article>
+                <img src="img/marcas-logos/vondel-park.png" alt="Logo Vondel Park" loading="lazy">
+                <p>Vondel Park</p>
+            </article>
+            <article>
+                <img src="img/marcas-logos/mormaii.png" alt="Logo Mormaii" loading="lazy">
+                <p>Mormaii</p>
+            </article>
+            <article>
+                <img src="img/marcas-logos/mira-flex.png" alt="Logo Mira Flex" loading="lazy">
+                <p>Mira Flex</p>
+            </article>
+            <article>
+                <img src="img/marcas-logos/union-pacific.png" alt="Logo Union Pacific" loading="lazy">
+                <p>Union Pacific</p>
+            </article>
+            <article>
+                <img src="img/marcas-logos/tiffany.png" alt="Logo Tiffany" loading="lazy">
+                <p>Tiffany</p>
+            </article>
+    <!--                
     <article>
         <img src="img/marcas-logos/" alt="">
         <p>Cruiser</p>
@@ -116,7 +133,8 @@
     <article>
         <img src="img/marcas-logos/" alt="">
         <p>Jordans</p>
-    </article>-->
+    </article>
+    -->
         </section>
 
 
