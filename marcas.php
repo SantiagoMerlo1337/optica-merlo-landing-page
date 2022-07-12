@@ -125,16 +125,6 @@
                 <img src="img/marcas-logos/tiffany.png" alt="Logo Tiffany" loading="lazy">
                 <p>Tiffany</p>
             </article>
-    <!--                
-    <article>
-        <img src="img/marcas-logos/" alt="">
-        <p>Cruiser</p>
-    </article> 
-    <article>
-        <img src="img/marcas-logos/" alt="">
-        <p>Jordans</p>
-    </article>
-    -->
         </section>
 
 

@@ -16,7 +16,7 @@
     <main>
         <div class="container-fluid containerPrincipal py-4 px-xs-2 px-sm-5">
             <div class="row">
-                <div class="col-12 col-lg-8 pe-lg-5 text-center text-lg-start textoPrincipal">
+                <div class="col-12 col-lg-8 pe-lg-5 text-center text-lg-start textoPrincipal scroll-reveal">
                     <h2 class="h2 fs-1 fw-bold text-white">La Óptica que siempre buscaste en Rafaela</h2>
                     <h3 class="h3 fw-light text-white">Especialistas en lentes multifocales, lentes de contacto,
                         anteojos recetados y protectores para sol.</h3>
@@ -78,7 +78,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
