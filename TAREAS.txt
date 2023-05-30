@@ -1,9 +1,0 @@
-//// OBLIGATORIO ////
-
--telefono
-
-
-//// MEJORAS ////
-
-//// FIXES ////
-
