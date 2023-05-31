@@ -4,10 +4,9 @@
     background: var(--primary-color);
 }
 .fs-titulo{
-    font-size: 3.4rem;
     font-weight: 700;
 }
 .img-header{
-    width: 350px;
+    width: 300px;
     object-fit: contain;
 }

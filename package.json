@@ -7,14 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "buildpurgecss": "purgecss --css node_modules/bootstrap/dist/css/bootstrap.min.css --content src/main.jsx -o src/utils/juajuaa.css"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "sass": "^1.62.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

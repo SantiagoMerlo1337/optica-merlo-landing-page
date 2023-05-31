@@ -22,15 +22,15 @@ function App() {
 
   return (
     <>
-      <Navbar img={logoNavbar} />
+        <Navbar img={logoNavbar} />
         
-      <Routes>
-        <Route path='/' element={<Inicio/>} />
-        <Route path='/marcas' element={<Marcas/>} />
-        <Route path='/filtros' element={<Filtros/>} />
-      </Routes>
+        <Routes>
+            <Route path='/' element={<Inicio/>} />
+            <Route path='/marcas' element={<Marcas/>} />
+            <Route path='/filtros' element={<Filtros/>} />
+        </Routes>
 
-      <Footer imgLogo={logoFooter} />
+        <Footer imgLogo={logoFooter} />
     </>
   )
 }

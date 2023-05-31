@@ -3,6 +3,8 @@ import Card from '../components/Card/Card.jsx'
 import Header from '../components/Header/Header.jsx'
 import TextBand from '../components/TextBand/TextBand.jsx'
 
+import {Link} from 'react-router-dom'
+
 //Assets
 import vectorLentes from '../assets/lentes-3.png'
 import imgModelo1 from '../assets/modelo1.jpg'
@@ -19,19 +21,23 @@ function Home() {
         <TextBand text='¿Qué estas buscando?'/>
 
         <main className='m-0 p-0'>
-            <div className="container py-3">
-            <div className="row gap-3 gap-md-0">
-                <div className="col-12 col-md-6">
-                <Card img={imgModelo2} 
-                title='LENTES DE RECETA'
-                desc='Contamos con filtros de luz azul, antirreflejos, ambos filtros combinados, y mucho más.'/>
-                </div>
-                <div className="col-12 col-md-6">
-                <Card img={imgModelo1} 
-                title='LENTES DE SOL'
-                desc='Contamos con lentes de calidad premium de distintas marcas, armazones de nylon, metálicos, y mucho más.'/>
-                </div>
-            </div>
+            <div className="container py-3 ">
+              <div className="row gap-3 gap-md-0">
+                  <div className="col-12 col-md-6">
+                    <Link to='/filtros' className='text-dark text-decoration-none'>
+                      <Card img={imgModelo2} 
+                      title='LENTES DE RECETA'
+                      desc='Contamos con filtros de luz azul, antirreflejos, ambos filtros combinados, y mucho más.'/>
+                    </Link>
+                  </div>
+                  <div className="col-12 col-md-6">
+                    <Link to='/marcas' className='text-dark text-decoration-none '>
+                      <Card img={imgModelo1} 
+                      title='LENTES DE SOL'
+                      desc='Contamos con lentes de calidad premium de distintas marcas, armazones de nylon, metálicos, y mucho más.'/>
+                    </Link>
+                  </div>
+              </div>
             </div>
         </main>
     </>

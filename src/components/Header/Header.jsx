@@ -2,8 +2,8 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Header.css'
 
-export default function Header({title, desc, img = null}) {
-  if (img!=null){
+export default function Header({title, desc = null, img = null}) {
+  if (img!=null && desc!=null){
     return (
       <section className='header-section text-light'>
         <div className="container py-4 text-center text-sm-start">
@@ -23,7 +23,7 @@ export default function Header({title, desc, img = null}) {
   else{
     return(
       <section className='header-section text-light'>
-        <div className="container py-4">
+        <div className="container py-4 text-center text-sm-start">
           <h2 className='fs-titulo'>{title}</h2>
           <h3 className='fs-4'>{desc}</h3>
         </div>
