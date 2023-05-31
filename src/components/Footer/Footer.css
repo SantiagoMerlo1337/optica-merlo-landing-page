@@ -1,0 +1,17 @@
+@import url(/src/utils/const.css);
+
+.footer-footer{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.text-footer{
+    font-size: 1rem;   
+}
+.logo-footer{
+    width: 50px;
+    object-fit: contain;
+    filter: brightness(100);
+    opacity: 15%;
+}
+.i-fb-footer{
+    width: 100px;
+}

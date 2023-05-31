@@ -1,0 +1,16 @@
+@import url(/src/utils/const.css);
+
+.card-card{
+    background-color: white;
+    border-radius: 40px;
+}
+.img-card{
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.title-card{
+    font-weight: 700;
+}
