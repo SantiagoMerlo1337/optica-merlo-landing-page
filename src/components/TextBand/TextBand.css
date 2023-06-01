@@ -1,5 +1,1 @@
-@import url(/src/utils/const.css);
-
-.container-textband{
-    background-color: tomato;
-}
+@import '../../styles/const.css';

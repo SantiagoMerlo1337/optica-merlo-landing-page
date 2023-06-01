@@ -1,11 +1,5 @@
-@import url(/src/utils/const.css);
+@import '../../styles/const.css';
 
-.header-section{
-    background: var(--primary-color);
-}
-.fs-titulo{
-    font-weight: 700;
-}
 .img-header{
     width: 300px;
     object-fit: contain;

@@ -1,4 +1,4 @@
-@import url(/src/utils/const.css);
+@import '../../styles/const.css';
 
 .footer-footer{
     background-color: rgba(0, 0, 0, 0.9);

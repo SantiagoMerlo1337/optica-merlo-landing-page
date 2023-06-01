@@ -1,0 +1,11 @@
+.container-marcas{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
+  row-gap: 40px;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

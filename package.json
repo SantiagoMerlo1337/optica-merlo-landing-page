@@ -1,5 +1,5 @@
 {
-  "name": "practice-site-2",
+  "name": "optica-merlo-landing-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "buildpurgecss": "purgecss --css node_modules/bootstrap/dist/css/bootstrap.min.css --content src/main.jsx -o src/utils/juajuaa.css"
+    "buildpurgecss": "purgecss --css src/styles/sass/bootstrap-custom.css --content index.html -o src/styles/purgecss.css"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",

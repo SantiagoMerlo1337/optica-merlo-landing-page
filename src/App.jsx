@@ -1,38 +1,36 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
-import './App.css'
+import './styles/sass/bootstrap-custom.css'
+import './styles/App.css'
 
 //Pages
 import Inicio from './pages/Inicio.jsx'
 import Marcas from './pages/Marcas.jsx'
 import Filtros from './pages/Filtros.jsx'
+import Contacto from './pages/Contacto.jsx'
 
 //Components
 import Navbar from './components/Navbar/Navbar.jsx'
 import Footer from './components/Footer/Footer.jsx'
-
-//Assets
-import logoNavbar from './assets/logo-desc-unalinea.png'
-import logoFooter from './assets/logo-png.png'
 
 
 function App() {
 
   return (
     <>
-        <Navbar img={logoNavbar} />
+        <Navbar/>
         
         <Routes>
             <Route path='/' element={<Inicio/>} />
             <Route path='/marcas' element={<Marcas/>} />
             <Route path='/filtros' element={<Filtros/>} />
+            <Route path='/contacto' element={<Contacto/>} />
         </Routes>
 
-        <Footer imgLogo={logoFooter} />
+        <Footer />
     </>
   )
 }
 
-export default App;
+export default App

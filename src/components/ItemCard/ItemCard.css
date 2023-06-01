@@ -1,0 +1,7 @@
+@import '../../styles/const.css';
+
+.img-itemcard{
+    width: 140px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}

@@ -6,17 +6,17 @@ import TextBand from '../components/TextBand/TextBand.jsx'
 import {Link} from 'react-router-dom'
 
 //Assets
-import vectorLentes from '../assets/lentes-3.png'
-import imgModelo1 from '../assets/modelo1.jpg'
-import imgModelo2 from '../assets/modelo2.jpg'
+import lentesHeader from '/src/assets/img/lentes-header.png'
+import imgModelo1 from '/src/assets/img/modelo1.jpg'
+import imgModelo2 from '/src/assets/img/modelo2.jpg'
 
-function Home() {
+export default function Inicio() {
   return (
     <>
         <Header
         title='La Óptica que siempre buscaste en Rafaela' 
         desc='Especialistas en lentes multifocales, lentes de contacto, anteojos recetados y protectores para sol.'
-        img= {vectorLentes}/>
+        img= {lentesHeader}/>
 
         <TextBand text='¿Qué estas buscando?'/>
 
@@ -43,5 +43,3 @@ function Home() {
     </>
   )
 }
-
-export default Home

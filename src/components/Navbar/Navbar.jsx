@@ -1,17 +1,18 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Navbar.css'
 
-import {Link} from 'react-router-dom'
+//Assets
+import logoNavbar from '/src/assets/img/logo-desc-unalinea.png'
 
-
-export default function Navbar({img}) {
+export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-md py-3 px-0 px-sm-5">
+        <nav className="navbar bg-white navbar-expand-md py-3 px-0 px-sm-5">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
-                    <img className='logo' src={img} alt="Logo" />
-                </a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <Link to='/' className="navbar-brand">
+                    <img className='logo' src={logoNavbar} alt="Logo" />
+                </Link>
+                <button className="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
@@ -26,7 +27,9 @@ export default function Navbar({img}) {
                             <Link to='/filtros' className='nav-link px-3 rounded'>Filtros</Link>
                         </li>
                     </ul>
-                    <button className='btn ms-2 ms-lg-0 mt-2 mt-lg-0'>Contactanos</button>
+                    <Link to='/contacto'>
+                        <button className='btn btn-primary ms-2 ms-md-0 mt-2 mt-md-0'>Contactanos</button>
+                    </Link>
                 </div>
             </div>
         </nav>

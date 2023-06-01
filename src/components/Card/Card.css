@@ -1,4 +1,4 @@
-@import url(/src/utils/const.css);
+@import '../../styles/const.css';
 
 .card-card{
     background-color: white;
