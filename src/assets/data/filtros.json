@@ -1,0 +1,17 @@
+[
+    {
+        "src":"/src/assets/img/luz-azul.jpg",
+        "title":"Luz Azul",
+        "desc":"Protege la vista de la luz azul que emite las pantallas."
+    },
+    {
+        "src":"/src/assets/img/antirreflejo.jpg",
+        "title":"Antirreflejo",
+        "desc":"Elimina los reflejos de luz producidos artificial o naturalmente que dificultan ver de forma correcta."
+    },
+    {
+        "src":"/src/assets/img/fotocromatico.jpg",
+        "title":"Fotocromático",
+        "desc":"Lentes transparentes en interiores, pero se oscurecen al estar en ambientes luminosos."
+    }
+]
