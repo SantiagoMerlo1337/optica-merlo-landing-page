@@ -18,7 +18,7 @@ export default function Marcas() {
       />
       
       <main>
-        <section className='container container-marcas'>
+        <section className='container container-marcas pb-5'>
           {marcasJson.map((item, index) => (
             <ItemCard key={index} item={item} />
           ))}
