@@ -30,8 +30,7 @@ export default function Carousel({ item }) {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
-        </div>
-        
+        </div>        
     );   
 }
 
@@ -60,23 +59,30 @@ function btnsCarousel({ item }) {
 //Coloca los "componentes" con las imagenes y el texto del json
 function imagesCarousel({item}) {
     const images = []
-
     
     for (let i = 0; i < item.length; i++) {
         var firstImage = (i===0) ? "active" : "" 
 
         const img = (
-            <div className={"carousel-item " + firstImage}>
-                <div className="degradee-carousel">
-                    <div className="d-flex justify-content-center">
-                        <img src={item[i].src} className="d-block w-100" alt="Filtro"/>
-                    </div>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>{item[i].title}</h5>
-                        <p>{item[i].desc}</p>
-                    </div>
+            <>
+            <div className={"degradee-carousel carousel-item " + firstImage}>
+                {/* Texto arriba */}
+                <div className='d-block d-md-none bg-light text-center container-mobile-carousel py-2'>
+                    <h5 className='fs-3 fw-bolder m-0'>{item[i].title}</h5>
+                    <p className='m-0'>{item[i].desc}</p>
+                </div>
+
+                <div className="d-flex justify-content-center">
+                    <img src={item[i].src} className="d-block w-100 imagen-carousel" alt="Filtro"/>
+                </div>
+                <div className="carousel-caption d-none d-md-block text-carousel h-50">
+                    <h5 className='fs-3 fw-bolder'>{item[i].title}</h5>
+                    <p>{item[i].desc}</p>
                 </div>
             </div>
+            
+            </>
+            
         );
         images.push(img);
     }

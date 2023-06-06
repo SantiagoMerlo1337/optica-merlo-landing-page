@@ -12,9 +12,9 @@ export default function Filtros() {
       <Header title='Filtros disponibles'/>
       <TextBand text='¡Visitanos a nuestro local con tu receta para adquirirlos!'/>
       <main>
-        <div className="bg-primary">
-            <h3 className="text-center pt-4 text-white fw-bolder" >-Filtros / Tratamientos-</h3>
-            <div className="d-flex justify-content-center pt-2 pb-4">    
+        <div className="">
+            {/* <h3 className="text-center pt-4 text-white fw-bolder" >-Filtros / Tratamientos-</h3> */}
+            <div className="d-flex justify-content-center py-4">    
                 <Carousel
                 item={filtrosJson}
                 />
