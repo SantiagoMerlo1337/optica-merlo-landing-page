@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import Header from '../components/Header/Header.jsx'
 import TextBand from '../components/TextBand/TextBand.jsx'
 import Carousel from '../components/Carousel/Carousel.jsx'

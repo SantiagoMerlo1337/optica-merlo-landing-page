@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from '../components/Card/Card.jsx'
 import Header from '../components/Header/Header.jsx'
 import TextBand from '../components/TextBand/TextBand.jsx'
@@ -14,9 +13,10 @@ export default function Inicio() {
   return (
     <>
         <Header
-        title='La Óptica que siempre buscaste en Rafaela' 
-        desc='Especialistas en lentes multifocales, lentes de contacto, anteojos recetados y protectores para sol.'
-        img= {lentesHeader}/>
+          title='La Óptica que siempre buscaste en Rafaela' 
+          desc='Especialistas en lentes multifocales, lentes de contacto, anteojos recetados y protectores para sol.'
+          img= {lentesHeader}
+        />
 
         <TextBand text='¿Qué estas buscando?'/>
 

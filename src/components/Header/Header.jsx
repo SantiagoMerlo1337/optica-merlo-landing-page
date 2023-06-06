@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import './Header.css'
 
 export default function Header({title, desc = null, img = null}) {
@@ -29,3 +29,8 @@ export default function Header({title, desc = null, img = null}) {
     )
   }
 }
+Header.propTypes = {
+  title: PropTypes.string.isRequired, 
+  desc: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired
+};

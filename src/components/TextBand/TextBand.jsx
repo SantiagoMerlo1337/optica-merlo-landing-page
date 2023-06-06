@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import './TextBand.css'
 
 export default function TextBand({text}) {
@@ -9,4 +9,7 @@ export default function TextBand({text}) {
         </div>
     </div>
   )
+}
+TextBand.propTypes = {
+  text: PropTypes.string.isRequired
 }

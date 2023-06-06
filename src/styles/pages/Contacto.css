@@ -1,0 +1,12 @@
+.gmaps-contacto{
+    border: 0;
+    width: 60%;
+    height: 400px;
+    border-radius: 35px;
+}
+
+@media (max-width: 768px){
+    .gmaps-contacto{
+        width: 100%;
+    }
+}

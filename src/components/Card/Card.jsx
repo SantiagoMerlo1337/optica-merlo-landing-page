@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import './Card.css'
 
 export default function Card({img, title, desc}) {
@@ -13,3 +13,9 @@ export default function Card({img, title, desc}) {
         </article>
     )
 }
+Card.propTypes = {
+    img: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
+    
+  };

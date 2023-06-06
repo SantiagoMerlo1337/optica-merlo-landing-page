@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Carousel.css'
 
 export default function Carousel({ item, nroCarousel }) {
@@ -66,16 +67,16 @@ function imagesCarousel({item}) {
         const img = (
             <div className={"degradee-carousel carousel-item " + firstImage}>
                 {/* Texto arriba */}
-                <div className='d-block d-md-none bg-dark text-white text-center container-mobile-carousel py-2'>
-                    <h5 className='fw-bolder m-0'>{item[i].title}</h5>
-                    <p className='m-0'>{item[i].desc}</p>
+                <div className="d-block d-md-none bg-dark text-white text-center container-mobile-carousel py-2">
+                    <h5 className="fw-bolder m-0">{item[i].title}</h5>
+                    <p className="m-0">{item[i].desc}</p>
                 </div>
 
                 <div className="d-flex justify-content-center">
                     <img src={item[i].src} className="d-block w-100 imagen-carousel" alt="Filtro"/>
                 </div>
                 <div className="carousel-caption d-none d-md-block text-carousel h-50">
-                    <h5 className='fs-3 fw-bolder'>{item[i].title}</h5>
+                    <h5 className="fs-3 fw-bolder">{item[i].title}</h5>
                     <p>{item[i].desc}</p>
                 </div>
             </div>
@@ -84,3 +85,7 @@ function imagesCarousel({item}) {
     }
     return images;
 }
+Carousel.propTypes = {
+    item: PropTypes.object.isRequired,
+    nroCarousel: PropTypes.number.isRequired,
+  };

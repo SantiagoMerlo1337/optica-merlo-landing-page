@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../components/Header/Header.jsx'
 import TextBand from '../components/TextBand/TextBand.jsx'
 import ItemCard from '../components/ItemCard/ItemCard.jsx'
