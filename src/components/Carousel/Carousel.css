@@ -1,5 +1,9 @@
+.titulo-carousel{
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 .container-carousel {
-    width: 850px;
+    width: 800px;
     border-radius: 35px;
 }
 .degradee-carousel {
@@ -9,7 +13,7 @@
     z-index: 0; */
 }
 .imagen-carousel {
-    opacity: 0.5;
+    opacity: 0.65;
     /* position: relative;
     z-index: 0; */
 }
@@ -22,7 +26,7 @@
     height: 90px;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 768px) {
     .degradee-carousel{
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;

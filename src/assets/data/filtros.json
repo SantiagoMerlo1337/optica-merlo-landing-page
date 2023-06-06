@@ -13,5 +13,20 @@
         "src":"/src/assets/img/fotocromatico.jpg",
         "title":"Fotocromático",
         "desc":"Lentes transparentes en interiores, pero se oscurecen al estar en ambientes luminosos."
+    },
+    {
+        "src":"/src/assets/img/complex.jpg",
+        "title":"Complex",
+        "desc":"Lentes livianas, hidrofóbicas, resistentes, filtro luz azul, estéticas, antirreflejo  y asféricas"
+    },
+    {
+        "src":"/src/assets/img/adaptec-vuble.jpg",
+        "title":"Adaptec Vuble",
+        "desc":"Combinación de los siguientes filtros: antirreflejos, luz azul y fotocromático."
+    },
+    {
+        "src":"/src/assets/img/antirraya.jpg",
+        "title":"Antirraya",
+        "desc":"¡Protege las lentes de los rayones involuntarias!"
     }
 ]

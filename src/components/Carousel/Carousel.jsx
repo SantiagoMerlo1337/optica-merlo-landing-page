@@ -1,13 +1,13 @@
 import React from 'react';
 import './Carousel.css'
 
-export default function Carousel({ item }) {
+export default function Carousel({ item, nroCarousel }) {
 
     const buttons = btnsCarousel({ item });
     const images = imagesCarousel({ item });
 
     return (
-        <div id="carouselExampleCaptions" className="carousel slide container-carousel">
+        <div id={"carouselExampleCaptions" + nroCarousel} className="carousel slide container-carousel">
             <div className="carousel-indicators">
                 {buttons.map((button, index) => (
                     <React.Fragment key={index}>
@@ -22,16 +22,16 @@ export default function Carousel({ item }) {
                     </React.Fragment>
                 ))}
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button className="carousel-control-prev" type="button" data-bs-target={"#carouselExampleCaptions" + nroCarousel} data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button className="carousel-control-next" type="button" data-bs-target={"#carouselExampleCaptions" + nroCarousel} data-bs-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
-        </div>        
-    );   
+        </div>
+    );
 }
 
 
@@ -64,11 +64,10 @@ function imagesCarousel({item}) {
         var firstImage = (i===0) ? "active" : "" 
 
         const img = (
-            <>
             <div className={"degradee-carousel carousel-item " + firstImage}>
                 {/* Texto arriba */}
-                <div className='d-block d-md-none bg-light text-center container-mobile-carousel py-2'>
-                    <h5 className='fs-3 fw-bolder m-0'>{item[i].title}</h5>
+                <div className='d-block d-md-none bg-dark text-white text-center container-mobile-carousel py-2'>
+                    <h5 className='fw-bolder m-0'>{item[i].title}</h5>
                     <p className='m-0'>{item[i].desc}</p>
                 </div>
 
@@ -80,9 +79,6 @@ function imagesCarousel({item}) {
                     <p>{item[i].desc}</p>
                 </div>
             </div>
-            
-            </>
-            
         );
         images.push(img);
     }

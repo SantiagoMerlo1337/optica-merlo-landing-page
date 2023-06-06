@@ -1,0 +1,17 @@
+[
+    {
+        "src":"/src/assets/img/monofocal.jpg",
+        "title":"Monofocal",
+        "desc":"Misma graduación en toda su superficie."
+    },
+    {
+        "src":"/src/assets/img/bifocal.jpg",
+        "title":"Bifocal",
+        "desc":"Dos graduaciones en las mismas gafas: la de lejos y la de cerca."
+    },
+    {
+        "src":"/src/assets/img/multifocal.jpg",
+        "title":"Multifocal",
+        "desc":"Progresividad en dos graduaciones, permitiendo el enfoque de distancias lejanas, medias y cercanas."
+    }
+]
