@@ -13,10 +13,22 @@ export default function Contacto() {
       <main>
         <div className="container">
           <div className="row">
-            <ul className="col-12 list-unstyled d-flex justify-content-center gap-5">
-              <li><i className="bi bi-whatsapp fs-1 px-3 text-white bg-dark rounded"/></li>
-              <li><i className="bi bi-instagram fs-1 px-3 text-white bg-dark rounded"/></li>
-              <li><i className="bi bi-facebook fs-1 px-3 text-white bg-dark rounded"/></li>
+            <ul className="col-12 list-unstyled d-flex justify-content-center gap-5 py-4">
+              <li>
+                <a href="https://api.whatsapp.com/send?phone=5493492281954" target="_blank" rel="noopener noreferrer">
+                  <i className="bi bi-whatsapp fs-1 px-3 text-light bg-success rounded"/>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/merloptica" target="_blank" rel="noopener noreferrer">
+                  <i className="bi bi-instagram fs-1 px-3 text-light bg-danger rounded"/>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/MerloOptica" target="_blank" rel="noopener noreferrer">
+                  <i className="bi bi-facebook fs-1 px-3 text-light bg-primary rounded"/>
+                </a>
+              </li>
             </ul>
           
             <div className="col-12 text-center">
