@@ -6,12 +6,15 @@ import MobileNav from "./MobileNav";
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center py-4 px-8 md:px-14 ">
-            <Link href={navbarLinks[0].route} className="flex-shrink-0">
+        <nav className="flex items-center py-4 px-8 md:px-10 lg:px-14">
+            <Link
+                href={navbarLinks[0].route}
+                className="flex-shrink-0 py-1 me-4"
+            >
                 <Image src={logoNavbar} alt="Logo Optica Merlo" width={230} />
             </Link>
-            <div className="flex-between w-full ms-10 lg:ms-12">
-                <ul className="gap-4 hidden md:flex">
+            <div className="flex-between w-full ms-6 md:ms-8 lg:ms-16">
+                <ul className="gap-6 hidden md:flex">
                     {navbarLinks.map((item) => {
                         if (item.label !== "Contactanos") {
                             return (
