@@ -6,7 +6,7 @@ import MobileNav from "./MobileNav";
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center py-4 px-8 md:px-10 lg:px-14">
+        <nav className="flex items-center py-4 px-8 md:px-10 lg:px-14 bg-white">
             <Link
                 href={navbarLinks[0].route}
                 className="flex-shrink-0 py-1 me-4"

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/shared/navbar/Navbar";
+import Footer from "@/components/shared/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +19,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="es">
-            <body className={inter.className}>
+            <body className={`${inter.className} background-custom-gradient`}>
                 <Navbar />
                 {children}
+                <Footer/>
             </body>
         </html>
     );
