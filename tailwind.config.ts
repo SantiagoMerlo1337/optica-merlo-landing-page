@@ -21,6 +21,9 @@ module.exports = {
                     500: "#162364",
                     800: "#0b1233",
                 },
+                secondary: {
+                    500: "#FF6347",
+                },
                 "accent-blue": "#1DA1F2",
             },
             fontFamily: {
