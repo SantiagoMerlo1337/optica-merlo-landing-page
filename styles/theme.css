@@ -25,8 +25,20 @@
         @apply text-[33.18px] font-semibold leading-[43.134px];
     }
 
+    .h5-bold {
+        @apply text-[23.04px] font-bold leading-[29.952px];
+    }
+
+    .h5-semibold {
+        @apply text-[23.04px] font-semibold leading-[29.952px];
+    }
+
     .h5-regular {
         @apply text-[23.04px] leading-[29.952px];
+    }
+
+    .base-regular {
+        @apply text-[18px] leading-[25.2px];
     }
 
     .base-medium {
