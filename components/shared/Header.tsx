@@ -8,10 +8,10 @@ interface Props {
 }
 
 const Header = ({ title, desc, imgUrl, tag }: Props) => {
-    if (desc) {
+    if (desc && imgUrl) {
         return (
             <>
-                <div className="bg-primary-500 text-white">
+                <div className="background-custom2-gradient text-white">
                     <div className="container grid grid-cols-1 lg:grid-cols-2 py-8 text-center md:text-start">
                         <div className="">
                             <h2 className="h1-bold">{title}</h2>
@@ -27,14 +27,25 @@ const Header = ({ title, desc, imgUrl, tag }: Props) => {
                             />
                         </div>
                     </div>
-                </div>
-                <div className="text-white bg-secondary-500">
+                <div className="text-white bg-black/30">
                     <p className="h5-regular py-2 text-center">{tag}</p>
+                </div>
                 </div>
             </>
         );
     } else {
-        return <h2>hola</h2>;
+        return (
+            <>
+                <div className="background-custom2-gradient text-white">
+                    <div className="container py-8 text-center md:text-start">
+                        <h2 className="h1-bold">{title}</h2>
+                    </div>
+                <div className="text-white bg-black/30">
+                    <p className="h5-regular py-2 text-center">{tag}</p>
+                </div>
+                </div>
+            </>
+        );
     }
 };
 

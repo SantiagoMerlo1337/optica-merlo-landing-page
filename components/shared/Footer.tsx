@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <footer className='text-white bg-black/70 pb-8 pt-4'>
+    <footer className='text-white background-custom-gradient pb-8 pt-4'>
         <div className="container">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-5">
                 <div className="text-center md:text-start">
@@ -20,7 +20,6 @@ const Footer = () => {
 
                 <div className="text-end">
                     <ul className="flex gap-4 justify-center md:justify-end mb-4">
-
                       {
                         socialMedia.map((item)=>(
                           <li key={item.label}>
@@ -31,7 +30,7 @@ const Footer = () => {
                         ))
                       }
                     </ul>
-                    <h5 className="text-center hidden md:block">Cualquier consulta escribinos al <strong>WhatsApp</strong></h5>
+                    <h5 className="text-center md:text-end hidden md:block">Cualquier consulta escribinos al <strong>WhatsApp</strong></h5>
                 </div>
             </div>
             <p className="text-center mt-6">Copyright © Óptica Merlo</p>
