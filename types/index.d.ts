@@ -8,3 +8,9 @@ export interface SocialMedia {
     label: string;
     imgUrl: string;
 }
+
+export interface Marcas {
+    imgUrl: string;
+    label: string;
+    link?: string;
+}
