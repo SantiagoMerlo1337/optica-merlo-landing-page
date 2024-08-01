@@ -4,29 +4,22 @@ import Link from "next/link";
 interface Props{
     imgUrl: string;
     imgAlt: string;
-    hrefLink?: string;
+    hrefLink: string;
     title:string;
     desc:string;
     
 }
-const Card = ({imgUrl, imgAlt, hrefLink, title, desc}:Props) => {
-
-    if(hrefLink){
+const Card2 = ({imgUrl, imgAlt, hrefLink, title, desc}:Props) => {
         return (
-            <article className="w-full">
-                <Link href={hrefLink}>
-                    <Image width={704} height={400} alt={`${imgAlt}`} src={String(imgUrl)} className="h-96 object-cover rounded-t-3xl"/>
-                    <div className="bg-white py-4 px-2 rounded-b-3xl text-gray-900">
-                        <h4 className="text-center mb-1 h5-bold">{title}</h4>
-                        <hr />
-                        <p className="mt-4 text-center base-regular">{desc}</p>
+            <Link href={hrefLink}>
+                <article className="flex justify-between bg-white rounded-xl py-8 px-4 text-gray-900 h-full shadow-xl">
+                    <div className="me-6">
+                        <p className="h5-semibold mb-2">{title}</p>
+                        <p className="base-regular">{desc}</p>
                     </div>
-                </Link>
-            </article>
+                    <Image className="bg-black/10 rounded-full p-2 object-contain" alt={imgAlt} src={String(imgUrl)} width={120} height={120} />
+                </article>
+            </Link>
         )
-    } else {
-        return <p>ERROR</p>
-    }
 }
-
-export default Card
+export default Card2
