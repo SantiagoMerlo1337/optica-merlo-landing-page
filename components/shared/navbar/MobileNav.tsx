@@ -12,6 +12,7 @@ import { navbarLinks } from "@/components/constants";
 const NavContent = () => {
     return (
         <section className="flex h-full flex-col gap-6 pt-16">
+            <Image className="mx-auto" src="/assets/images/logo.png" width={32} height={32} alt="hola"/> 
             {navbarLinks.map((item) => {
                 if (item.label != "Contactanos") {
                     return (
@@ -29,7 +30,7 @@ const NavContent = () => {
                 } else {
                     return (
                         <SheetClose asChild key={item.route}>
-                            <Link href={item.route} className="btn">
+                            <Link href={item.route} className="btn text-center">
                                 <p className="">{item.label}</p>
                             </Link>
                         </SheetClose>
@@ -49,7 +50,7 @@ const MobileNav = () => {
                     width={36}
                     height={36}
                     alt="Menu"
-                    className="invert-colors md:hidden "
+                    className="invert-colors xl:hidden "
                 />
             </SheetTrigger>
             <SheetContent side="left" className="bg-white border-none">
