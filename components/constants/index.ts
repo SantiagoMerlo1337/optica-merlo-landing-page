@@ -6,12 +6,20 @@ export const navbarLinks: NavbarLink[] = [
         label: "Inicio",
     },
     {
+        route: "/filtros",
+        label: "Filtros",
+    },
+    {
         route: "/marcas",
         label: "Marcas",
     },
     {
-        route: "/filtros",
-        label: "Filtros",
+        route: "/lentes-contacto",
+        label: "Lentes de Contacto",
+    },
+    {
+        route: "/accesorios",
+        label: "Accesorios",
     },
     {
         route: "/contacto",
