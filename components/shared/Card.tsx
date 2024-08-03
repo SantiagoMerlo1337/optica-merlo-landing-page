@@ -9,11 +9,11 @@ interface Props{
     desc:string;
     
 }
-const Card2 = ({imgUrl, imgAlt, hrefLink, title, desc}:Props) => {
+const Card = ({imgUrl, imgAlt, hrefLink, title, desc}:Props) => {
         return (
             <Link href={hrefLink}>
-                <article className="flex justify-between bg-white rounded-xl py-8 px-4 text-gray-900 h-full shadow-xl">
-                    <div className="me-6">
+                <article className="flex flex-wrap md:flex-nowrap justify-center md:justify-between bg-white rounded-xl py-8 px-4 text-gray-900 h-full shadow-xl">
+                    <div className="m-0 md:me-6 text-center md:text-start">
                         <p className="h5-semibold mb-2">{title}</p>
                         <p className="base-regular">{desc}</p>
                     </div>
@@ -22,4 +22,4 @@ const Card2 = ({imgUrl, imgAlt, hrefLink, title, desc}:Props) => {
             </Link>
         )
 }
-export default Card2
+export default Card
