@@ -1,4 +1,4 @@
-import { NavbarLink, SocialMedia, Marcas } from "../../types";
+import { NavbarLink, SocialMedia, Marcas, HeaderInfo } from "../../types";
 
 export const navbarLinks: NavbarLink[] = [
     {
@@ -26,6 +26,37 @@ export const navbarLinks: NavbarLink[] = [
         label: "Contactanos",
     },
 ];
+
+
+export const headerInfo: HeaderInfo[] = [
+    {
+        route: "/",
+        title: "La Óptica que siempre buscaste en Rafaela",
+        desc: "Especialistas en lentes multifocales, lentes de contacto, anteojos recetados y protectores para sol.",
+        tag: "¿Qué estas buscando?",
+        imgUrl: "/assets/images/lentes-header.png"
+    },
+    {
+        route: "/filtros",
+        title: "Filtros y marcos",
+        tag: "¡Vení a nuestro local para adquirirlos!",
+    },
+    {
+        route: "/marcas",
+        title: "Marcas disponibles",
+        tag: "¡Vení a nuestro local para adquirirlos!",
+    },
+    {
+        route: "/accesorios",
+        title: "Accesorios",
+        tag: "¡Vení a nuestro local para adquirirlos!",
+    },
+    {
+        route: "/lentes-contacto",
+        title: "Lentes de contacto",
+        tag: "¡Vení a nuestro local para adquirirlos!",
+    },
+]
 
 export const socialMedia: SocialMedia[] = [
     {
