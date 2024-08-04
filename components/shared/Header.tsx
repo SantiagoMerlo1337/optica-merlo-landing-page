@@ -1,19 +1,13 @@
+import { HeaderInfo } from "@/types";
 import Image from "next/image";
 
-interface Props {
-    title: string;
-    desc?: string;
-    imgUrl?: string;
-    tag: string;
-}
-
-const Header = ({ title, desc, imgUrl, tag }: Props) => {
+const Header = ({ title, desc, imgUrl, tag }: HeaderInfo) => {
     if (desc && imgUrl) {
         return (
             <>
-                <div className="background-custom2-gradient text-white mb-14">
-                    <div className="container grid grid-cols-1 lg:grid-cols-2 py-8 text-center md:text-start">
-                        <div className="">
+                <div className="background-custom2-gradient text-white">
+                    <div className="container grid grid-cols-1 lg:grid-cols-2  py-8 text-center md:text-start">
+                        <div>
                             <h2 className="h1-bold">{title}</h2>
                             <h3 className="h5-regular mt-2"> {desc}</h3>
                         </div>

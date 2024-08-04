@@ -5,8 +5,7 @@ import Image from 'next/image'
 const Marcas = () => {
   return (
     <>
-        <Header title="Marcas disponibles" tag='¡Visitanos a nuestro local para adquirirlos!'/>
-        <div className='container grid grid-cols-auto-custom text-center gap-10'>
+        <div className='grid grid-cols-auto-custom text-center gap-10'>
             {
                 marcas.map((item)=>(
                     <article key={item.label} className='w-40'>
