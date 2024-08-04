@@ -12,8 +12,8 @@ interface Props{
 const Card = ({imgUrl, imgAlt, hrefLink, title, desc}:Props) => {
         return (
             <Link href={hrefLink}>
-                <article className="flex flex-wrap md:flex-nowrap justify-center md:justify-between bg-white rounded-xl py-8 px-4 text-gray-900 h-full shadow-xl">
-                    <div className="m-0 md:me-6 text-center md:text-start">
+                <article className="flex flex-wrap lg:flex-nowrap justify-center lg:justify-between bg-white rounded-xl py-8 px-4 text-gray-900 h-full shadow-xl gap-4">
+                    <div className="m-0 lg:me-6 text-center lg:text-start">
                         <p className="h5-semibold mb-2">{title}</p>
                         <p className="base-regular">{desc}</p>
                     </div>

@@ -56,6 +56,11 @@ export const headerInfo: HeaderInfo[] = [
         title: "Lentes de contacto",
         tag: "¡Vení a nuestro local para adquirirlos!",
     },
+    {
+        route: "/contacto",
+        title: "Ubicación y redes",
+        tag: "¡Pasá por nuestro local!",
+    },
 ]
 
 export const socialMedia: SocialMedia[] = [
