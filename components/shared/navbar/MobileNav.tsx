@@ -12,7 +12,13 @@ import { navbarLinks } from "@/components/constants";
 const NavContent = () => {
     return (
         <section className="flex h-full flex-col gap-6 pt-16">
-            <Image className="mx-auto" src="/assets/images/logo.png" width={32} height={32} alt="hola"/> 
+            <Image
+                className="mx-auto"
+                src="/assets/images/logo.png"
+                width={32}
+                height={32}
+                alt="hola"
+            />
             {navbarLinks.map((item) => {
                 if (item.label != "Contactanos") {
                     return (

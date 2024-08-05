@@ -8,11 +8,11 @@ export interface NavbarLink {
 }
 
 export interface HeaderInfo {
-    route?: string
-    title: string
-    desc?: string
-    imgUrl?: string
-    tag: string
+    route?: string;
+    title: string;
+    desc?: string;
+    imgUrl?: string;
+    tag: string;
 }
 
 export interface SocialMedia {

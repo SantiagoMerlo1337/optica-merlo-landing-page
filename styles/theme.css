@@ -105,9 +105,13 @@
         @apply invert dark:invert-0;
     }
 
-    .primary-gradient{
-        background: rgb(98,13,142);
-        background: linear-gradient(0deg, rgba(98,13,142,1) 0%, rgba(22,35,100,1) 100%); 
+    .primary-gradient {
+        background: rgb(98, 13, 142);
+        background: linear-gradient(
+            0deg,
+            rgba(98, 13, 142, 1) 0%,
+            rgba(22, 35, 100, 1) 100%
+        );
     }
 
     .grid-cols-auto-custom {

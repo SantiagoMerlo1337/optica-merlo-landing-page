@@ -22,7 +22,7 @@ export default function RootLayout({
             <body className={`${inter.className} bg-slate-200`}>
                 <Navbar />
                 {children}
-                <Footer/>
+                <Footer />
             </body>
         </html>
     );

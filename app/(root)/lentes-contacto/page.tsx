@@ -1,7 +1,5 @@
 const LentesContacto = () => {
-  return (
-    <div>LentesContacto</div>
-  )
-}
+    return <div>LentesContacto</div>;
+};
 
-export default LentesContacto
+export default LentesContacto;
