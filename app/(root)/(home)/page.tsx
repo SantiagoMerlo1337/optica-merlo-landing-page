@@ -8,7 +8,7 @@ const filtrosHref = navbarLinks[2].route;
 const Home = () => {
     return (
         <>
-            <section className="grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 gap-14 w-full lg:w-full ">
+            <section className="grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 gap-14 w-full lg:w-full">
                 <Card
                     title="LENTES DE RECETA"
                     desc="Contamos con filtros de luz azul, antirreflejos, complex, y mucho más."
