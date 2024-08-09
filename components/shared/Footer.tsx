@@ -18,7 +18,7 @@ const Footer = () => {
                             </p>
                             <p>
                                 ¡Visitanos a nuestro local!{" "}
-                                <strong>Lavalle 90</strong>
+                                <strong>Lavalle 90, Rafaela, Santa Fe</strong>
                             </p>
                         </div>
                     </div>

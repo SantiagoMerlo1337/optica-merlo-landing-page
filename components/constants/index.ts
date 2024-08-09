@@ -1,4 +1,4 @@
-import { NavbarLink, SocialMedia, Marcas, HeaderInfo } from "../../types";
+import { NavbarLink, SocialMedia, Marcas, HeaderInfo, ArticlesInfo } from "../../types";
 
 export const navbarLinks: NavbarLink[] = [
     {
@@ -16,10 +16,6 @@ export const navbarLinks: NavbarLink[] = [
     {
         route: "/lentes-contacto",
         label: "Lentes de Contacto",
-    },
-    {
-        route: "/accesorios",
-        label: "Accesorios",
     },
     {
         route: "/contacto",
@@ -62,21 +58,76 @@ export const headerInfo: HeaderInfo[] = [
     },
 ];
 
+export const articlesInfo: ArticlesInfo[] =[
+    {
+        imgUrl: "/assets/images/arlyt-multiuso.png",
+        imgAlt: "Arlyt multiuso o multiproposito",
+        title: "Arlyt Express",
+        desc: "Líquido multipropósito estéril e isotónica para todo tipo de lentes de contactos blandas. Limpiadora, desinfectante, conservadora, humectante y de enjuage.",
+        size: "60ml, 120ml, 240ml, 360ml, 500ml"
+    },
+    {
+        imgUrl: "/assets/images/arlyt-rgp-multiuso.png",
+        imgAlt: "Arlyt RGP multiuso o multiproposito",
+        title: "Arlyt RGP",
+        desc: "Líquido multipropósito para lentes de contacto rígidas y gas permeable. Limpiadora, desinfectante, conservadora, humectante y de enjuage.",
+        size: "120ml"
+    },
+    {
+        imgUrl: "/assets/images/optifree-multiuso.png",
+        imgAlt: "Optifree multiuso o multiproposito",
+        title: "Optifree Express",
+        desc: "Líquido multipropósito. Limpia, enjuaga, desinfecta, humecta y conserva.",
+        size: "120ml, 300ml"
+    },
+    {
+        imgUrl: "/assets/images/renu-multiuso.png",
+        imgAlt: "Renu multiuso o multiproposito",
+        title: "Renu Fresh",
+        desc: "Líquido multipropósito. Desinfecta, remueve proteinas, lentes frescos y cómodos.",
+        size: "120ml, 355ml"
+    },
+    {
+        imgUrl: "/assets/images/arlyt-salina.jpg",
+        imgAlt: "Solución fisiológica",
+        title: "Solución Salina",
+        desc: "Solución fisiológica. Enjuague especial para lentes de contacto. Limpia, desinfecta y conserva los lentes de contacto",
+        size: "500ml"
+    },
+    {
+        imgUrl: "/assets/images/arlyt-fresh.png",
+        imgAlt: "Arlyt fresh",
+        title: "Arlyt Fresh",
+        desc: "Solución hidratante para lentes de contacto. Refresca, limpia, desinfecta, conserva, elimina gérmenes y bacterias que puedan causar infecciones.",
+        size: "15ml"
+    },
+    {
+        imgUrl: "/assets/images/arlyt-lubricante.png",
+        imgAlt: "Arlyt lubricante",
+        title: "Arlyt Lubricante",
+        desc: "Solución para la lubricación de los ojos y las lentes. Lubrica la superficie de la lente y mantiene la hidratación durante las horas de uso.",
+        size: "15ml"
+    },
+]
+
 export const socialMedia: SocialMedia[] = [
     {
-        url: "/",
+        url: "https://api.whatsapp.com/send?phone=5493492281954",
         label: "WhatsApp",
         imgUrl: "/assets/icons/social-media/whatsapp.png",
+        otherClasses: " bg-green-600 hover:bg-green-800 "
     },
     {
-        url: "/",
+        url: "https://www.instagram.com/merloptica/",
         label: "Instagram",
         imgUrl: "/assets/icons/social-media/instagram.png",
+        otherClasses: " bg-red-600 hover:bg-red-800 "
     },
     {
-        url: "/",
+        url: "https://www.facebook.com/MerloOptica/",
         label: "Facebook",
         imgUrl: "/assets/icons/social-media/facebook.png",
+        otherClasses: " bg-blue-600 hover:bg-blue-800 "
     },
 ];
 

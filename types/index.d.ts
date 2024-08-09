@@ -15,10 +15,19 @@ export interface HeaderInfo {
     tag: string;
 }
 
+export interface ArticlesInfo{
+    imgUrl: string;
+    imgAlt: string;
+    title: string;
+    desc: string;
+    size: string;
+}
+
 export interface SocialMedia {
     url: string;
     label: string;
     imgUrl: string;
+    otherClasses?:string;
 }
 
 export interface Marcas {

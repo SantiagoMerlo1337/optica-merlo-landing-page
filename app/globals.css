@@ -44,6 +44,12 @@ body {
             rgba(22, 35, 100, 1) 100%
         );
     }
+
+    .background-custom3-gradient {
+        background: rgb(10,56,46);
+        background: linear-gradient(0deg, rgba(10,56,46,1) 0%, rgba(8,16,60,1) 100%); 
+    }
+
 }
 
 .no-focus {
