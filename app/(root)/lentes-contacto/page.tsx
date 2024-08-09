@@ -1,5 +1,5 @@
 import { articlesInfo } from "@/components/constants";
-import CardArticle from "@/components/shared/CardArticle";
+import ArticleCard from "@/components/shared/ArticleCard";
 import Image from "next/image";
 
 const LentesContacto = () => {
@@ -32,7 +32,7 @@ const LentesContacto = () => {
             <section className="flex-center md:flex-start flex-wrap gap-6 jus">
                 {
                     articlesInfo.map((article)=>(
-                        <CardArticle 
+                        <ArticleCard
                         key={article.title}
                         imgUrl={article.imgUrl}
                         imgAlt={article.imgAlt}
