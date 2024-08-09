@@ -12,7 +12,7 @@ const Card = ({ imgUrl, imgAlt, hrefLink, title, desc }: Props) => {
     return (
         <Link
             href={hrefLink}
-            className="hover:scale-105 ease-in-out duration-100"
+            className="hover:scale-105 ease-in-out duration-100 w-[600px]"
         >
             <article className="flex flex-wrap lg:flex-nowrap justify-center lg:justify-between bg-white rounded-xl py-8 px-4 text-gray-900 h-full shadow-xl hover:shadow-2xl gap-4">
                 <div className="m-0 lg:me-6 text-center lg:text-start">
