@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import logoNavbar from "@/public/assets/images/logo-desc-unalinea.png";
 import { navbarLinks } from "../../constants";
 import MobileNav from "./MobileNav";
+import { opticaImages } from "@/components/constants/images";
 
 const Navbar = () => {
     return (
@@ -11,7 +11,7 @@ const Navbar = () => {
                 href={navbarLinks[0].route}
                 className="flex-shrink-0 py-1 m-0 xl:me-4"
             >
-                <Image src={logoNavbar} alt="Logo Optica Merlo" width={230} />
+                <Image src={opticaImages.logoUnaLinea} alt="Logo Optica Merlo" width={230} height={40}/>
             </Link>
             <div className="flex-between w-full ms-6 md:ms-8">
                 <ul className="gap-2 md:gap-6 hidden xl:flex">

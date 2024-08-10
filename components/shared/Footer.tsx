@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { socialMedia } from "../constants";
 import Link from "next/link";
+import { opticaImages } from "../constants/images";
 
 const Footer = () => {
     return (
@@ -52,7 +53,7 @@ const Footer = () => {
                     width={32}
                     height={32}
                     alt="Optica Merlo logo"
-                    src="/assets/images/logo-png.png"
+                    src={opticaImages.logoPng}
                     className="invert-colors"
                 />
             </div>

@@ -10,7 +10,6 @@ const Contacto = () => {
             style={{ border: 0 }}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            aria-placeholder=""
         />
 
         <ul>

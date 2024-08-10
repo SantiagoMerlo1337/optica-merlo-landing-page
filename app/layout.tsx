@@ -10,6 +10,23 @@ export const metadata: Metadata = {
     title: "Optica Merlo",
     description:
         "Optica en Rafaela, Santa Fe con más de 65 años de experiencia.",
+    authors:{
+        name: "Santiago Merlo",
+        url: "https://merlo-santiago-pf.vercel.app/"
+    },
+    creator: "Santiago Merlo",
+    publisher: "Santiago Merlo",
+    generator: "Next.js 14",
+    referrer: "no-referrer",
+    keywords:[
+        "Optica",
+        "Rafaela",
+        "Multifocales",
+        "Lentes de sol",
+        "Lentes de contacto",
+        "Lentes con aumento",
+        "Liquidos lentes",
+    ]
 };
 
 export default function RootLayout({

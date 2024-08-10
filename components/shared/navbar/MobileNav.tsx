@@ -8,13 +8,15 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { navbarLinks } from "@/components/constants";
+import { opticaImages } from "@/components/constants/images";
+import { icons } from "@/components/constants/icons";
 
 const NavContent = () => {
     return (
         <section className="flex h-full flex-col gap-4 pt-14">
             <Image
                 className="ms-1"
-                src="/assets/images/logo.png"
+                src={opticaImages.logo}
                 width={32}
                 height={32}
                 alt="Optica Merlo logo"
@@ -52,7 +54,7 @@ const MobileNav = () => {
         <Sheet>
             <SheetTrigger asChild>
                 <Image
-                    src="/assets/icons/hamburger.svg"
+                    src={icons.hamburger}
                     width={36}
                     height={36}
                     alt="Menu"
