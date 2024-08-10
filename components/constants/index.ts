@@ -60,28 +60,28 @@ export const headerInfo: HeaderInfo[] = [
 
 export const articlesInfo: ArticlesInfo[] =[
     {
-        imgUrl: "/assets/images/arlyt-multiuso.png",
+        imgUrl: "/assets/images/arlyt-express.png",
         imgAlt: "Arlyt multiuso o multiproposito",
         title: "Arlyt Express",
         desc: "Líquido multipropósito estéril e isotónica para todo tipo de lentes de contactos blandas. Limpiadora, desinfectante, conservadora, humectante y de enjuage.",
         size: "60ml, 120ml, 240ml, 360ml, 500ml"
     },
     {
-        imgUrl: "/assets/images/arlyt-rgp-multiuso.png",
+        imgUrl: "/assets/images/arlyt-rgp.png",
         imgAlt: "Arlyt RGP multiuso o multiproposito",
         title: "Arlyt RGP",
         desc: "Líquido multipropósito para lentes de contacto rígidas y gas permeable. Limpiadora, desinfectante, conservadora, humectante y de enjuage.",
         size: "120ml"
     },
     {
-        imgUrl: "/assets/images/optifree-multiuso.png",
+        imgUrl: "/assets/images/optifree.png",
         imgAlt: "Optifree multiuso o multiproposito",
         title: "Optifree Express",
         desc: "Líquido multipropósito. Limpia, enjuaga, desinfecta, humecta y conserva.",
         size: "120ml, 300ml"
     },
     {
-        imgUrl: "/assets/images/renu-multiuso.png",
+        imgUrl: "/assets/images/renu.png",
         imgAlt: "Renu multiuso o multiproposito",
         title: "Renu Fresh",
         desc: "Líquido multipropósito. Desinfecta, remueve proteinas, lentes frescos y cómodos.",
