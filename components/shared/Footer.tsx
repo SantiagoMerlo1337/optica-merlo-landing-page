@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-5">
                     <div className="text-center md:text-start">
-                        <h5 className="base-regular mb-2">Sobre el Sitio</h5>
+                        <p className="base-regular mb-2">Sobre el Sitio</p>
                         <div>
                             <p>
                                 En Óptica Merlo nos preocupamos por tu calidad
