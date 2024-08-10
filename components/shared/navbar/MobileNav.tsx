@@ -11,13 +11,13 @@ import { navbarLinks } from "@/components/constants";
 
 const NavContent = () => {
     return (
-        <section className="flex h-full flex-col gap-6 pt-16">
+        <section className="flex h-full flex-col gap-4 pt-14">
             <Image
-                className="mx-auto"
+                className="ms-1"
                 src="/assets/images/logo.png"
                 width={32}
                 height={32}
-                alt="hola"
+                alt="Optica Merlo logo"
             />
             {navbarLinks.map((item) => {
                 if (item.label != "Contactanos") {
@@ -25,7 +25,7 @@ const NavContent = () => {
                         <SheetClose asChild key={item.route}>
                             <Link
                                 href={item.route}
-                                className="bg-primary-500/10 w-auto rounded"
+                                className="bg-primary-500/5 w-auto rounded"
                             >
                                 <p className="font-semibold px-3 py-2 hover:bg-primary-500/5 rounded text-primary-800/80 hover:text-primary-800">
                                     {item.label}

@@ -31,13 +31,6 @@ const Home = () => {
                     hrefLink={lentesContactoHref}
                 />
             </section>
-            {/* <Card
-                title="ACCESORIOS DE ÓPTICA"
-                desc="Encuentra líquidos refrescantes, lubricantes y otros accesorios esenciales para el cuidado de tus lentes."
-                imgAlt="Accesorios de óptica imagen"
-                imgUrl="/assets/icons/accesorios-optica.png"
-                hrefLink="/accesorios"
-            /> */}
         </>
     );
 };

@@ -5,9 +5,9 @@ import Image from "next/image";
 const Marcas = () => {
     return (
         <>
-            <div className="grid grid-cols-auto-custom text-center gap-10">
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-10 text-center">
                 {marcas.map((item) => (
-                    <article key={item.label} className="w-40">
+                    <article key={item.label} className="w-36">
                         <Image
                             src={item.imgUrl}
                             width={160}

@@ -8,7 +8,7 @@ const Header = ({ title, desc, imgUrl, tag }: HeaderInfo) => {
                 <div className="background-custom2-gradient text-white">
                     <div className="container grid grid-cols-1 lg:grid-cols-2 py-8 text-center md:text-start text-balance">
                         <div>
-                            <h2 className="h1-bold">{title}</h2>
+                            <h2 className="h2-bold md:h1-bold">{title}</h2>
                             <h3 className="h5-regular mt-2"> {desc}</h3>
                         </div>
                         <div className="justify-end items-center hidden lg:flex">
