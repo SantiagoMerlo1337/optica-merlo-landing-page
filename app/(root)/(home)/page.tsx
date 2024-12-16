@@ -14,7 +14,7 @@ const Home = () => {
                     title="LENTES DE RECETA"
                     desc="Contamos con filtros de luz azul, antirreflejos, fotocromáticos, complex, y mucho más."
                     imgAlt="Lentes de receta imagen"
-                    imgUrl={illustrations.lentesContacto}
+                    imgUrl={illustrations.lentesReceta}
                     hrefLink={filtrosHref}
                 />
                 <Card
